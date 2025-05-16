@@ -1,0 +1,70 @@
+
+
+Header, Footer {
+    background: #2a2a2a;
+    color: #ffffff;
+    padding: 1 2;
+    text-align: center;
+  }
+  
+  /* Tab bar container */
+  TabbedContent > Horizontal {
+    padding: 1 2;
+    margin: 5 3;
+    background: #2a2a2a;
+    border-bottom: heavy #444444;
+  }
+  
+
+  .tab-button {
+    padding: 0 1;
+    margin: 1 3;
+    height:5;
+    border-bottom:  solid transparent;
+  }
+  .tab-button:hover {
+    border-bottom:  solid #777777;
+  }
+  /* Active tab highlight */
+  .tab-button.--active {
+    border-bottom: solid red;
+    text-style: bold;
+  }
+  
+  /* Main content panels */
+  TabPane {
+    padding: 1 2;
+    margin: 3;
+    background: #1e1e1e;
+    border: round #555555;
+    overflow: auto;
+  }
+  
+  /* ListView (Transactions) styling */
+  ListView {
+    padding: 1;
+    color:white
+  }
+  ListView > ListItem {
+    padding: 0 1;
+    border-bottom: double #444444;
+  }
+  ListView > ListItem:last-child {
+    border-bottom: none;
+  }
+  
+  /* Input fields */
+  Input {
+    border: tall #555555;
+    padding: 0 1;
+  }
+  
+  /* General buttons */
+  Button {
+    padding: 0 1;
+    border: dashed #555555;
+  }
+
+  Button#send-btn {
+    margin-top: 1;
+  }
